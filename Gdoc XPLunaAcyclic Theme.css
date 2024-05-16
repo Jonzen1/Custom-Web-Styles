@@ -118,7 +118,7 @@
         .docs-gm .docs-menubar .goog-control {
             border-radius: 0;
         }
-        /*input Text - Search 選單 & Font Size*/
+        /*input Text - Search 選單 & Font Size & Display Percentage*/
         .docs-omnibox-autocomplete .docs-omnibox-input,
         .docs-grille-gm3 #docs-omnibox-toolbar.assisted-actions .docs-omnibox-input:focus-within,
         .docs-grille-gm3 #fontSizeSelect.docs-font-size-inc-dec-combobox.goog-toolbar-combo-button,

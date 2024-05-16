@@ -1,0 +1,197 @@
+@-moz-document domain("www.carousell.com.hk") {
+.D_ot {
+    font-family: 'Pixelated MS Sans Serif', Tahoma, '新細明體XP版', sans-serif;
+    ;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    color: black !important;
+}
+* {
+    font-family: 'Pixelated MS Sans Serif', Tahoma, 'GenYoGothic TW', sans-serif;
+}
+/*Photo Catelogry Button*/
+.D_alQ p{
+    font-size: 15px;
+    color: #fff !important;
+}
+
+/*XP beige*/
+.D_Ja, .D_LL, .D_Pb, .D_PI, .D_Mf, .asm-browse-listings, .D_bwh,
+.D_rZ, .D_KA, .D_aOJ {
+    background: #ece9d8 !important;
+}
+
+.D_auC {
+    background: transparent !important;
+}
+/*onsell item*/
+.D_sy, .D_zT, 
+/*item descr.*/
+.D_Kk .D_aum, .D_Kk .D_ayV, .D_Kk .D_aOh {
+    background: #fff !important;
+}
+.D_bMf {
+    font-family: 'Pixelated MS Sans Serif', Tahoma, 'PMingLiu', sans-serif !important;
+    border: 1px solid #000;
+    background: #FFFFE1 !important;
+}
+
+/*item descr.*/
+.D_Kk {
+    padding: 0 8px;
+}
+
+/*item seller name, price box*/
+.D_US {
+    box-shadow: none;
+}
+
+/*hide border which under the item title, descr. n seller name, price*/
+.D_Kf, .D_Kp {
+    border: none;
+}
+
+/*catelogry popup menu*/
+.D_aq_ {
+    background-image: linear-gradient(180deg, #7aa1e6 0%, #6376d6 50%) !important;
+    color: #fff !important;
+}
+.D_aqE {
+    background: linear-gradient(180deg,#0997ff,#0053ee 8%,#0050ee 40%,#06f 88%,#06f 93%,#005bff 95%,#003dd7 96%,#003dd7) !important;
+}
+.D_aqE p {
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #0A1883;
+    font-size: 15px;
+}
+.D_aqL:hover {
+    background: #316bcd !important;
+}
+.D_aqH {
+    background: #d6dff7 !important;
+}
+
+/*fieldset Border*/
+/*filter pane*/
+.D_aRu, .D_aRv,
+/*onsell item*/
+.D_sy, .D_zT,
+/*item descr.*/
+.D_Kk{
+    border: 1px solid #d0d0bf;
+    border-radius: 4px;
+}
+
+.D_K_ , .D_aOI {
+    border: 1px solid #d0d0bf;
+}
+
+/*dropdown menu*/
+.D_GO, .D_aou {
+    border: 1px solid #aaa !important;
+    box-shadow: 3px 3px 2px #8080806e !important;
+    background: #ffffffd4;
+    backdrop-filter: blur(20px);
+    border-radius: 0;
+}
+.D_aow:hover, .D_aot:hover, .D_aXi:hover, .D_Pk:hover, a.D_aqM:hover {
+    background: #316bcd !important;
+    box-shadow: none !important;
+}
+.D_aow:hover .D_ot, .D_aot:hover .D_ot, .D_aXi:hover p, 
+/*all cat.*/
+.D_Pk:hover .D_ot,
+/*My Message - sent*/
+.D_bLH .D_ot{
+    color: #fff !important;
+}
+
+/*price input box*/
+.D_pT,
+.D_rm {
+    padding: 0 16px;
+    border: solid #7f9db9 1px;
+    background-color: var(--button-highlight);
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    line-height: 2;
+    &:focus {
+        outline: none !important;
+    }
+}
+/*location selector box*/
+.D_arc.D_arc.D_arc {
+    border: none !important;
+}
+
+/*buttons*/
+.D_pg, .D_rL, .D_bFt, button.D_QM, button.D_apt, button.D_QP,
+button.D_pm, button.D_ph,
+button.D_QC, .D_tb {
+    font-family: 'Pixelated MS Sans Serif', Arial, 'PMingLiu', sans-serif;
+    ;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    box-sizing: border-box;
+    border: 1px solid #003c74;
+    background: linear-gradient(180deg, #fff, #ecebe5 86%, #d8d0c4) !important;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 7px 20px !important;
+    outline: none;
+    color: black !important;
+}
+button:focus, .D_pI:focus, .D_pP, D_pz_D, .D_pT:focus-within, .D_rm:focus-within {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #7f9db9 !important;
+}
+
+button:hover , .D_pgv:hover, .D_rL:hover, button.D_apt:hover, button.D_ph:hover, button.D_pm:hover, .D_tb:hover{
+    box-shadow: inset -1px 1px #fff0cf, inset 1px 2px #fdd889, inset -2px 2px #fbc761, inset 2px -2px #e5a01a !important;
+}
+
+/*like btn*/
+.D_pw:hover, 
+/*blue underline link*/
+.D_ni:hover, button.D_pl:hover, a.D_aqP:hover, a.D_aqM:hover, a.D_xg:hover p {
+    box-shadow: none !important; /*no yellow highlight border*/
+}
+.D_pg:focus , .D_rL:focus, button.D_QM:focus, button.D_ph:focus, button.D_pm:focus{
+    box-shadow: inset -1px 1px #cee7ff, inset 1px 2px #98b8ea, inset -2px 2px #bcd4f6, inset 1px -1px #89ade4 ,
+        inset 2px -2px #89ade4 !important;
+}
+
+.D_pg:active , .D_rL:active, button.D_QM:active, button.D_apt:active,
+button.D_QP:active, button.D_ph:active, button.D_pm:active,
+button.D_QC:active, .D_tb:active {
+    box-shadow: none !important;
+    background: linear-gradient(180deg,
+            rgba(205, 202, 195, 1) 0%,
+            rgba(227, 227, 219, 1) 8%,
+            rgba(229, 229, 222, 1) 94%,
+            rgba(242, 242, 241, 1) 100%) !important;
+}
+/*Close button -f catelogry popup menu*/
+[aria-label="關閉"],
+/*Profile dropdown menu item icon*/
+.D_aXi:hover svg, 
+/*all cat.*/
+.D_Pk:hover svg,
+a.D_aqM:hover svg {
+    filter: invert(100%) sepia(7%) saturate(0%) hue-rotate(132deg) brightness(150%) contrast(108%);
+}
+
+.D_ni, button.D_pl, a.D_aqP, a.D_aqM, a.D_xg p {
+    color: #000080 !important;
+    text-decoration: underline;
+}
+
+/*Sell stuff button*/
+a[href='/sell/'] {
+    padding: 2px 30px !important;
+}
+}

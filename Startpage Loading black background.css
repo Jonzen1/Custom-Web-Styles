@@ -1,0 +1,5 @@
+@-moz-document domain("www.startpage.com") {
+    .js-interstitial-spinner {
+        background: black;
+    }
+}

@@ -1,0 +1,69 @@
+.kix-appview-editor {
+    background-color: #bbbaae !important;
+}
+.docs-grille-gm3 #docs-chrome:not(.docs-hub-chrome), 
+.docs-grille-gm3 #docs-header:not(.docs-hub-appbar) .docs-titlebar-buttons,
+.docs-main-toolbars, .goog-toolbar-button-outer-box, .goog-toolbar-toggle-button,
+.docs-collapsable-toolbar-control,
+.docs-titlebar-badge-container:hover .goog-control{
+    background: #ECE9D8 !important;
+    background-image: linear-gradient(133deg, #f3f4f7 90%, #eae6d0 100%);
+    border: 1px solid transparent;
+    box-shadow: none !important;
+} 
+.goog-toolbar-button-outer-box:hover, .goog-toolbar-menu-button-outer-box:hover,
+.docs-titlebar-badge-container:hover .goog-control,
+#docs-revisions-appbarbutton.jfk-button:hover, #docs-docos-commentsbutton.jfk-button:hover,
+.docs-parent-collections-container:hover,
+.docs-bubble-button:hover,
+.docs-grille-gm3 #docs-titlebar-share-client-button:hover .jfk-button{
+    border: 1px solid blue !important;
+    background: #bbd6f4 !important;
+    border-radius: 4px;
+}
+.docs-save-indicator-container:hover .goog-inline-block {
+    background: transparent !important;
+}
+.goog-toolbar-menu-button-outer-box,
+.docs-parent-collections-container{
+    background: transparent !important;
+    border: 1px solid transparent;
+    box-shadow: none !important;
+}
+.menu-button:hover, .docs-gm .goog-menuitem:hover, .docs-gm .goog-menuitem:hover .goog-menuitem-label, .goog-menuitem:hover .goog-menuitem-content,
+.docs-grille-gm3 .docs-menubar .goog-control-hover, .docs-grille-gm3 .docs-menubar .goog-control-open{
+    color: white !important;
+    background: #316bcd !important;
+}
+.goog-menuitem:hover .goog-menuitem-accel, .goog-menuitem:hover .docs-toolbar-mode-switcher-menu-description {
+    color: #ccc;
+}
+.docs-gm .goog-menuitem:hover .docs-icon-img, .goog-menuitem:hover .goog-menuitem-checkbox, .goog-flat-button:hover .docs-icon-close-thin {
+    filter: invert(100%) sepia(7%) saturate(0%) hue-rotate(132deg) brightness(150%) contrast(108%);
+}
+.docs-grille-gm3 #docs-titlebar-share-client-button .jfk-button, .docs-grille-gm3 #scb-quick-actions-menu-button.goog-flat-menu-button{
+    background: #d0cec0 !important;
+    border-radius: 4px !important;
+}
+.docs-omnibox-autocomplete .docs-omnibox-input {
+    background: #fff !important;
+    border-radius: 4px !important;
+}
+.docs-grille-gm3.docs-gm #docs-toolbar-mode-switcher {
+    background: #ECE9D8 !important;
+}
+.navigation-widget-row-controls .goog-flat-button:hover{
+    background: #f23c3c;
+    border-radius: 4px;
+}
+.outline-refresh .navigation-item.location-indicator-highlight .navigation-item-content, .outline-refresh .navigation-item.location-indicator-highlight .navigation-item-content.goog-button-hover, .outlines-widget .outlines-widget-chaptered .location-indicator-highlight.navigation-item [class*="navigation-item-level-"], .outlines-widget .outlines-widget-chaptered .location-indicator-highlight.navigation-item [class*="navigation-item-level-"].goog-button-hover ,
+.outline-refresh.navigation-widget-unified-styling .location-indicator-highlight.navigation-item, .outline-refresh.navigation-widget-unified-styling .location-indicator-highlight.navigation-item .navigation-item-level-0{
+    color: white !important;
+    background: #316bcd !important;
+}
+.docs-gm .goog-menu {
+    border: 1px solid #aaa !important;
+    box-shadow: 3px 3px 2px #8080806e !important;
+    background: #ffffffba;
+    backdrop-filter: blur(20px);
+}

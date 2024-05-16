@@ -199,14 +199,15 @@
         font-size: 14px;
     }
     /*Toolbar ---*/
+    .SQaXIc {
+        align-items: end;
+    }
     /*類型etc buttons*/
     .glX3de.EwXqJf {
         height: 28px;
     }
     .vhoiae .glX3de {
         background: unset;
-    }
-    .vhoiae .glX3de {
         border-radius: 0;
     }
     .glX3de {

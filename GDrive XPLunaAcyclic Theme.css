@@ -99,14 +99,21 @@
                 rgba(242, 242, 241, 1) 100%) !important;
     }
     /*sidebar header 新增*/
-    .ZHllM,
+    .ZHllM {
+        background-image: linear-gradient(90deg, #fff 0%, #C6D3F7 100%) !important;
+        padding: 8px 16px !important;
+    }
+
+
     /*取得更多儲存空間*/
-    .AeBiU-d, .AeBiU-d-Qu-gc-Ca, .AeBiU-d-Qu-dgl2Hf, .jWOVfd-ml-d , .Ya-I-ph  {
+    .AeBiU-vQzf8d {
         font-size: 12px;
+        font-weight: normal !important;
+        font-family: 'Pixelated MS Sans Serif', Tahoma, '細明體96', sans-serif;
     }
     /*取得更多儲存空間*/
     .AeBiU-d, .AeBiU-d-Qu-gc-Ca, .AeBiU-d-Qu-dgl2Hf, .jWOVfd-ml-d , .Ya-I-ph {
-        margin: 2px 4px;
+        margin: -9px 0 20px -25px;
         border: 0;
         border-radius: 0;
     }
@@ -149,7 +156,7 @@
     }
     /*address bar fitler*/
     .a-Ba-Ed .a-s-Ba-ce {
-        background-image: linear-gradient(0deg, #f3f4f7 0%, #eae6d0 20%) !important;
+        border-bottom: 1px solid #D8D2BD;
     }
     /*right proporties*/
     .a-ub-j,.a-ub-Gd  {
@@ -191,4 +198,34 @@
     a.ji-A.cr-hTVF2c-r {
         font-size: 14px;
     }
+    /*Toolbar ---*/
+    /*類型etc buttons*/
+    .glX3de.EwXqJf {
+        height: 28px;
+    }
+    .vhoiae .glX3de {
+        background: unset;
+    }
+    .vhoiae .glX3de {
+        border-radius: 0;
+    }
+    .glX3de {
+        border: none;
+    }
+    .glX3de:hover {
+        color: white !important;
+        background-color: #316bcd;
+    }
+
+    .hWG7gb {
+        padding: 0;
+    }
+    .a-s-Ba-ce {
+        min-height: unset;
+    }
+    .SQaXIc .CE1MF .oisqfd, .a-Oa-id-M, /*已選取 X 個項目*/.uEnUtd, .uEnUtd .a-c-d {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /*Toolbar ---*/
     }

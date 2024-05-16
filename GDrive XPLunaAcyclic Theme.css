@@ -43,16 +43,8 @@
         border: 1px solid transparent !important;
     }
     .a-U-J:hover, .a-U-J:hover .a-s-T-j {
-        color: white !important;
-        background: #316bcd !important;
-        /*
-        border: 1px solid blue !important;
-        background: #bbd6f4 !important;
-        */
-        /*text-decoration: underline;*/
-    }
-    .a-U-J:hover {
-        background: #316bcd !important;
+        color: #428EFF !important;
+        text-decoration: underline;
     }
     
     .a-U-J::before {
@@ -110,15 +102,13 @@
     .ZHllM,
     /*取得更多儲存空間*/
     .AeBiU-d, .AeBiU-d-Qu-gc-Ca, .AeBiU-d-Qu-dgl2Hf, .jWOVfd-ml-d , .Ya-I-ph  {
-        background-image: linear-gradient(90deg, #fff 0%, #C6D3F7 100%) !important;
-        padding: 8px 16px !important;
+        font-size: 12px;
     }
     /*取得更多儲存空間*/
     .AeBiU-d, .AeBiU-d-Qu-gc-Ca, .AeBiU-d-Qu-dgl2Hf, .jWOVfd-ml-d , .Ya-I-ph {
-        margin: 18px 10px;
-        box-shadow: 0 0 5px #00000030;
+        margin: 2px 4px;
         border: 0;
-        border-radius: 8px;
+        border-radius: 0;
     }
     /*context menu*/
     .h-w, .h-w-Xi, .a-w {
@@ -140,7 +130,7 @@
         transition:height 50ms cubic-bezier(0.4,0,0.2,1) 0ms,margin-top 100ms cubic-bezier(0.4,0,0.2,1),opacity 200ms cubic-bezier(0.4,0,0.2,1) !important;
     }
     /*context menu item svg icon*/
-    .h-v:hover .c-Po, .a-U-J:hover .c-qd /*sidebar item.hover svg icon*/ {
+    .h-v:hover .c-Po {
         filter: invert(100%) sepia(7%) saturate(0%) hue-rotate(132deg) brightness(150%) contrast(108%);
     }
     
@@ -168,5 +158,37 @@
         border-top-right-radius: var(--dt-corner-landmark,0) !important;
         border-top-left-radius: var(--dt-corner-landmark,0) !important;
     }
-    
+    /*Toast Message*/
+    .a-la-B.g-Yd.a-Ff-B {
+        color: black;
+        background: rgb(255, 255, 225);
+        box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.5);
+        border: 1px solid black;
+        border-radius: 12px;
+        cursor: default;
+        font-family: Tahoma, Arial sans-serif;
+        left: unset;
+        right: 24px;
+        
+    }
+    .a-la-B.g-Yd.a-Ff-B:before {
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 0 20px 20px 0;
+        border-color: transparent rgb(255, 255, 225) transparent transparent;
+        transform: rotate(0deg);
+        top: 0;
+        left: 1px;
+    }
+    .a-Ff-B button {
+        color: #000080 !important;
+        text-decoration: underline;
+    }
+    /*儲存空間概況*/
+    a.ji-A.cr-hTVF2c-r {
+        font-size: 14px;
+    }
     }

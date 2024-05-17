@@ -2,7 +2,7 @@
     :root {
         --beige-color: #ECE9D8;
         --tooltip-ballon-beige: rgb(255, 255, 225);
-        --mingliu-font-family: Tahoma, '細明體96', sans-serif;
+        --xp-font-family: Tahoma, sans-serif;
     }
     /*header*/
     .ak25Me {
@@ -11,7 +11,7 @@
     /*sidebar*/
     .ALpC8b, .fVVp2c {
         background-image: linear-gradient(180deg, #7aa1e6 0%, #6376d6 50%) !important;
-        font-family: var(--mingliu-font-family);
+        font-family: var(--xp-font-family);
         -webkit-font-smoothing: antialiased;
         font-size: 11pt;
     }
@@ -75,7 +75,7 @@
         padding: 0;
         padding-left: 5px;
         height: 40px;
-        font-family: var(--mingliu-font-family);
+        font-family: var(--xp-font-family);
         -webkit-font-smoothing: antialiased;
         font-size: 13px;
         box-sizing: border-box;
@@ -118,7 +118,7 @@
     .AeBiU-vQzf8d {
         font-size: 12px;
         font-weight: normal !important;
-        font-family: var(--mingliu-font-family);
+        font-family: var(--xp-font-family);
     }
     /*取得更多儲存空間*/
     .AeBiU-d, .AeBiU-d-Qu-gc-Ca, .AeBiU-d-Qu-dgl2Hf, .jWOVfd-ml-d , .Ya-I-ph {
@@ -151,10 +151,11 @@
     }
     
     /*top search bar*/
-    .gb_Je, .a-WErN3d-OEtP0, .WJyHdc {
+    .gb_Je, .a-WErN3d-OEtP0, .WJyHdc, .gb_0d.gb_ve {
         background: #fff !important;
         border: 1px solid #a4bbe6;
         border-radius: 8px !important;
+        box-shadow: unset;
     }
     .S630me, /*files bottom */.PolqHc, /*right Properties */.wbg7nb {
         border-radius: 0 !important;
@@ -221,7 +222,7 @@
     }
     /*儲存空間概況*/
     a.ji-A.cr-hTVF2c-r {
-        font-size: 14px;
+        font-size: 13px;
     }
     /*Toolbar ---*/
     .SQaXIc {
@@ -259,7 +260,7 @@
     .ne2Ple-Ca-Qu-go .ne2Ple-z59Tgd, .vhoiae .g-Ca, .gb_2e, .Kk7lMc-Ca, .EY8ABd .VfPpkd-z59Tgd {
         color: black;
         background: var(--tooltip-ballon-beige);
-        font-family: var(--mingliu-font-family);
+        font-family: var(--xp-font-family);
         box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
         border-radius: 0;
         border: 1px solid black;
@@ -272,5 +273,22 @@
     }
     .gb_Fc > * {
         color: #888;
+    }
+    /*Drive Storage Size*/
+    .USrqEe-ml-Pr-gi .cr-hTVF2c-B-Fq92xe {
+        background-color: #fff;
+        border: 1px solid #686868;
+        box-shadow: inset 1px 1px 1px #bebebe;
+        border-radius: 3px;
+        height: 12px;
+    }
+    .B-Nd-ZB7aWe-UvFRu, .B-ZB7aWe-UvFRu.L3Yhxc-Ya {
+        margin: 2px;
+    }
+    .B-Nd-ZB7aWe-UvFRu { background-color: #fff; }
+    .B-ZB7aWe-UvFRu.L3Yhxc-Ya { 
+        background: linear-gradient(0deg, rgba(171,237,172,1) 0%, rgba(46,211,49,1) 50%, rgba(171,237,172,1) 100%);
+        max-height: 8px;
+        border-radius: 0px;
     }
     }

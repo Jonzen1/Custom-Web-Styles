@@ -71,11 +71,11 @@
         border-bottom: 20px solid #7aa1e6;
         min-width: 257px !important;
     }
-    .brbsPe {
+    .brbsPe, /*附件1 AD of download desktop app 掣*/.Fq82mf a {
         padding: 0;
         padding-left: 5px;
         height: 40px;
-        font-family: 'Pixelated MS Sans Serif', Arial, 'PMingLiu', sans-serif;
+        font-family: var(--mingliu-font-family);
         -webkit-font-smoothing: antialiased;
         font-size: 13px;
         box-sizing: border-box;
@@ -86,10 +86,15 @@
         outline: none;
         color: black !important;
     }
-    .brbsPe:hover {
+    /*附件1 AD of download desktop app 掣*/.Fq82mf a {
+        height: unset;
+        padding: 1px 20px;
+        margin-left: auto;
+    }
+    .brbsPe:hover, .Fq82mf a:hover {
         box-shadow: inset -1px 1px #fff0cf, inset 1px 2px #fdd889, inset -2px 2px #fbc761, inset 2px -2px #e5a01a !important;
     }
-    .brbsPe:focus {
+    .brbsPe:focus, .Fq82mf a:focus {
         box-shadow: inset -1px 1px #cee7ff, inset 1px 2px #98b8ea, inset -2px 2px #bcd4f6, inset 1px -1px #89ade4 ,
             inset 2px -2px #89ade4 !important;
     }
@@ -170,7 +175,8 @@
         border-top-left-radius: var(--dt-corner-landmark,0) !important;
     }
     /*Toast Message*/
-    .a-la-B.g-Yd.a-Ff-B {
+    .a-la-B.g-Yd.a-Ff-B, /*附件1 Annoucement on the Files area*/.XzbSje.AVUQbb.VLrnY, 
+    /*附件1 AD of download desktop app*/.Fq82mf {
         color: black;
         background: var(--tooltip-ballon-beige);
         box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.5);
@@ -178,10 +184,18 @@
         border-radius: 12px;
         cursor: default;
         font-family: Tahoma, Arial sans-serif;
+    }
+    /*Positioning of Toast Message*/
+    .a-la-B.g-Yd.a-Ff-B {
         left: unset;
         right: 24px;
-        
     }
+    /*Positioning of download desktop app AD*/
+    #wD0wwd {
+        position: absolute;
+        left: 5px;
+    }
+    
     .a-la-B.g-Yd.a-Ff-B:before {
         content: "";
         position: absolute;
@@ -194,9 +208,16 @@
         top: 0;
         left: 1px;
     }
-    .a-Ff-B button {
+    .a-Ff-B button, /*Annoucement on the Files area 掣*/.XzbSje.AVUQbb.VLrnY button,
+    /*AD of download desktop app 掣*/.Fq82mf_disable a {
         color: #000080 !important;
         text-decoration: underline;
+        font-weight: normal;
+    }
+    .Fq82mf_disable a {
+        border: none;
+        padding: 0;
+        margin-left: auto;
     }
     /*儲存空間概況*/
     a.ji-A.cr-hTVF2c-r {
@@ -235,7 +256,7 @@
     /*Toolbar ---*/
 
     /*Tooltips*/
-    .ne2Ple-Ca-Qu-go .ne2Ple-z59Tgd, .vhoiae .g-Ca, .gb_2e, .Kk7lMc-Ca {
+    .ne2Ple-Ca-Qu-go .ne2Ple-z59Tgd, .vhoiae .g-Ca, .gb_2e, .Kk7lMc-Ca, .EY8ABd .VfPpkd-z59Tgd {
         color: black;
         background: var(--tooltip-ballon-beige);
         font-family: var(--mingliu-font-family);

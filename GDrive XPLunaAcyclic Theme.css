@@ -1,4 +1,9 @@
 @-moz-document url-prefix("https://drive.google.com/drive/") {
+    :root {
+        --beige-color: #ECE9D8;
+        --tooltip-ballon-beige: rgb(255, 255, 225);
+        --mingliu-font-family: Tahoma, '細明體96', sans-serif;
+    }
     /*header*/
     .ak25Me {
         background-image: linear-gradient(133deg, #f3f4f7 0%, #eae6d0 20%) !important;
@@ -6,7 +11,7 @@
     /*sidebar*/
     .ALpC8b, .fVVp2c {
         background-image: linear-gradient(180deg, #7aa1e6 0%, #6376d6 50%) !important;
-        font-family: 'Pixelated MS Sans Serif', Tahoma, '細明體96', sans-serif;
+        font-family: var(--mingliu-font-family);
         -webkit-font-smoothing: antialiased;
         font-size: 11pt;
     }
@@ -71,7 +76,6 @@
         padding-left: 5px;
         height: 40px;
         font-family: 'Pixelated MS Sans Serif', Arial, 'PMingLiu', sans-serif;
-        ;
         -webkit-font-smoothing: antialiased;
         font-size: 13px;
         box-sizing: border-box;
@@ -109,7 +113,7 @@
     .AeBiU-vQzf8d {
         font-size: 12px;
         font-weight: normal !important;
-        font-family: 'Pixelated MS Sans Serif', Tahoma, '細明體96', sans-serif;
+        font-family: var(--mingliu-font-family);
     }
     /*取得更多儲存空間*/
     .AeBiU-d, .AeBiU-d-Qu-gc-Ca, .AeBiU-d-Qu-dgl2Hf, .jWOVfd-ml-d , .Ya-I-ph {
@@ -168,7 +172,7 @@
     /*Toast Message*/
     .a-la-B.g-Yd.a-Ff-B {
         color: black;
-        background: rgb(255, 255, 225);
+        background: var(--tooltip-ballon-beige);
         box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.5);
         border: 1px solid black;
         border-radius: 12px;
@@ -229,4 +233,23 @@
         margin-bottom: 0;
     }
     /*Toolbar ---*/
+
+    /*Tooltips*/
+    .ne2Ple-Ca-Qu-go .ne2Ple-z59Tgd, .vhoiae .g-Ca, .gb_2e, .Kk7lMc-Ca {
+        color: black;
+        background: var(--tooltip-ballon-beige);
+        font-family: var(--mingliu-font-family);
+        box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+        border-radius: 0;
+        border: 1px solid black;
+        min-height: 16px;
+        min-width: 5px;
+        padding: 1px 2px;
+    }
+    .gb_Fc div:first-child {
+        color: black;
+    }
+    .gb_Fc > * {
+        color: #888;
+    }
     }

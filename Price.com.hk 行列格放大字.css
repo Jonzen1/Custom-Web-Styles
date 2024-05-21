@@ -1,8 +1,7 @@
-@-moz-document domain("www.price.com.hk") {
+@-moz-document url-prefix("https://www.price.com.hk/search"), url-prefix("https://www.price.com.hk/category"), url-prefix("https://www.price.com.hk/group") {
     :root {
         --fontsize: 12pt;
     }
-
     .text-overflow {
         font-size: var(--fontsize) !important;
         margin-bottom: 100px !important;
@@ -10,90 +9,74 @@
         top: 0;
         height: unset !important;
     }
-
     .product-list-item-list .list-product .grid-2 .item .column-02 .line-01 .text-overflow span {
         min-height: var(--fontsize) !important;
         width: unset !important;
         padding: unset;
     }
-
     iframe, .category_youtube_ad_video, .cc-banner.cc-bottom, .buy_popover-charity, #px1_closeBtn {
         display: none !important;
     }
-
     #icon_IM {
         opacity: 0.3;
         top: unset;
         bottom: 20px;
     }
-
     .body-product-list .home-list-block-01, .body-product-list .home-list-block-02 {
         transform: scale(1);
         z-index: 999999;
     }
-
     .body-product-list .column.column-01, .page-view-respond-control {
         width: unset;
     }
-
     .product-detail-tab-content {
-        padding-left: 100px;
+        padding-left: 100px;   
     }
-
-    .header, .header-top, .header-bottom, .header-bottom .page-view-respond-control {
+    .header, .header-top, .header-bottom, .header-bottom .page-view-respond-control{
         background: #015447;
     }
-
-    .header-bottom .hot-items-wrapper ul li a, .header-top .column button, .header-top .column a, .header-top .column.column-01, .header-top .caret {
+    .header-bottom .hot-items-wrapper ul li a, .header-top .column button, .header-top .column a, .header-top .column.column-01, .header-top .caret{
         color: #d8d88b;
     }
-
     body {
         background: #dad3c2;
     }
-
     .product-list-filter-bar, .body-product-list .breadcrumb-news .nav-menu, .body-product-list .breadcrumb-product .nav-menu {
         background: #ffffff80;
     }
-
     .product-list-item-list .list-product .grid-2 .item .line-img img,
-    .body-product-list .product-detail-info .product-col-img .line-img img {
+    .body-product-list .product-detail-info .product-col-img .line-img img{
         border-radius: 8px;
     }
-
     .body-product-list .product-detail-info {
         margin-left: 20px;
     }
-
     .product-list-item-list .list-product li {
         background: #ffffff80;
     }
-
-    .body-product-list .pagination-bottom-center .pagination>li>a {
-        color: #016e67;
+    .body-product-list .pagination-bottom-center .pagination > li > a {
+        color:#016e67;
         font-weight: bolder;
     }
-
-    .product-col-info .line-02 .product-caption,
+    .product-col-info .line-02 .product-caption, 
     .body-product-list .product-list-item-list .quote-source,
-    .body-product-list .product-list-item-list .quotation-merchant-level {
+    .body-product-list .product-list-item-list .quotation-merchant-level{
         color: #7d6a3d;
     }
-
     .product-col-info .line-06 .shop-list-div li,
-    .body-product-list .product-list-item-list .quote-shop-remark {
+    .body-product-list .product-list-item-list .quote-shop-remark{
         color: #000;
     }
-
+    
     .body-product-list .product-list-item-list .quotation-merchant-address a,
-    .quote-stock-status-SST, .quote-stock-status-LST {
+    .quote-stock-status-SST, .quote-stock-status-LST{
         color: #008178;
         font-weight: 600;
     }
-
     .body-product-list .product-detail-tab-bar ul, .body-product-list .merchant-detail-tab-bar ul {
         background: unset;
     }
-
-    .body-product-list .home-list-block-02 .product-detail-tab-bar {}
-}
+    .body-product-list .home-list-block-02 .product-detail-tab-bar {
+        
+    }
+    }

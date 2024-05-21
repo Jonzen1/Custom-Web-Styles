@@ -1,0 +1,38 @@
+@-moz-document url("https://www.price.com.hk/") {
+    :root {
+        --page-background: #00231e;
+    }
+    body, .menu-mega .menu-lv-zone, .tab-news-pane-wrapper, .nav-tabs {
+        background: var(--page-background);
+    }
+    .menu-mega .menu-lv-zone li .menu-zone-unit a, .nav-tabs > li.active > a{
+        color: #ccc;
+    }
+    div.merchant, #text, .tab-content .profile-list-item-list .item-inner .line-02, .text {
+        color: #777 !important;
+    }
+    .header, .header-top, .header-bottom, .header-bottom .page-view-respond-control, .menu-mega-label{
+            background: #015447;
+    }
+    .header-bottom .hot-items-wrapper ul li a, .header-top .column button, .header-top .column a, .header-top .column.column-01, .header-top .caret,
+    .menu-mega .menu-lv-zone .menu-lv-cat li a,
+    .tab-content .profile-list-item-list .item-inner .line-01{
+            color: #d8d88b;
+        }
+    .menu-mega .menu-lv-zone li:last-child, .nav-tabs {
+        border-bottom-color: #76764a !important;
+    }
+    .side-banner, .ec-banner {
+        opacity: 0.2;
+    }
+    .page-view-footer {
+        opacity: 0.5;
+    }
+    .tab-content .profile-list-item-list li , .menu-mega .menu-lv-zone > li, .tab-content .profile-list-item-list .list-fav-product, .menu-mega .menu-mega-info{
+        border-color: var(--page-background);
+        background: #0e1b15;
+    }
+    img {
+        border-radius: 4px;
+    }
+    }

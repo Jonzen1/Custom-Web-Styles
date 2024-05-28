@@ -3,6 +3,8 @@
         --beige-color: #ECE9D8;
         --tooltip-ballon-beige: rgb(255, 255, 225);
         --xp-font-family: Tahoma, sans-serif;
+        --pmingliu-font-family: Tahoma, '細明體96', 'PMingLiU', sans-serif;
+        --msjhenghei-font-family: Tahoma, 'Microsoft JhengHei', sans-serif;
     }
     /*header*/
     .ak25Me {
@@ -260,7 +262,7 @@
     .ne2Ple-Ca-Qu-go .ne2Ple-z59Tgd, .vhoiae .g-Ca, .gb_2e, .Kk7lMc-Ca, .EY8ABd .VfPpkd-z59Tgd {
         color: black;
         background: var(--tooltip-ballon-beige);
-        font-family: var(--xp-font-family);
+        font-family: var(--pmingliu-font-family);
         box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
         border-radius: 0;
         border: 1px solid black;

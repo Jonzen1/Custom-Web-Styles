@@ -293,4 +293,18 @@
         max-height: 8px;
         border-radius: 0px;
     }
+    /*上傳項目 popup*/
+    .a-Cd, .af {
+        border-radius: 6px 6px 0 0 !important;
+    }
+    div.a-Cd.a-Cd-Na.Hb-ja-hc {
+        outline: 2px solid #000080;
+    }
+    .af { 
+        background-image: linear-gradient(180deg,#0997ff,#0053ee 8%,#0050ee 40%,#06f 88%,#06f 93%,#005bff 95%,#003dd7 96%,#003dd7);
+        color: #fff;
+    }
+    div.af-Yi {
+        filter: invert(100%) sepia(7%) saturate(0%) hue-rotate(132deg) brightness(150%) contrast(108%);
+    }
     }

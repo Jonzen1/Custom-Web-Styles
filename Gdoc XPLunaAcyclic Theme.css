@@ -1,6 +1,14 @@
-@-moz-document url-prefix("https://docs.google.com/document") {
+@-moz-document url-prefix("https://docs.google.com/document"), url-prefix("https://docs.google.com/presentation") {
     :root {
         --beige-color: #ECE9D8;
+        --tooltip-ballon-beige: rgb(255, 255, 225);
+        --pmingliu-font-family: Tahoma, '細明體96', 'PMingLiU', sans-serif;
+    }
+    /*ppt */#workspace-container {
+        background: #bbbaae;
+    }
+    /*ppt 尺規*/#docs-editor, #docs-editor-container, .docs-horizontal-ruler, .docs-vertical-ruler /*end of ppt 尺規*/, #speakernotes-dragger, #filmstrip-controls {
+        background: var(--beige-color) !important;
     }
     .kix-appview-editor {
             background-color: #bbbaae !important;
@@ -50,8 +58,40 @@
         /*共用掣*/
         .docs-grille-gm3 #docs-titlebar-share-client-button, .docs-grille-gm3 #docs-titlebar-share-client-button:hover .jfk-button:hover, .scb-split-button.jfk-button:focus,
         /*文件大綱掣及收埋*/.navigation-widget-hat-close-button-outer-box, .docs-floating-navigation-button-outer-box,
-        /*共用掣 - 側箭咀*/.docs-grille-gm3 #scb-quick-actions-menu-button.goog-flat-menu-button{
+        /*共用掣 - 側箭咀*/.docs-grille-gm3 #scb-quick-actions-menu-button.goog-flat-menu-button {
             border-radius: 0 !important;
+        }
+
+        /*幻燈片放映掣*/ #punch-start-presentation-left.jfk-button 
+        {
+            border-radius: 3px 0 0 3px !important;
+        }
+        /*幻燈片放映掣 - 側箭咀*/ #punch-start-presentation-right.goog-flat-menu-button {
+            border-radius: 0 3px 3px 0 !important;
+        }
+        #punch-start-presentation-left.jfk-button, #punch-start-presentation-right.goog-flat-menu-button {
+            height: 40px;
+            font-family: var(--xp-font-family);
+            -webkit-font-smoothing: antialiased;
+            font-size: 13px !important;
+            box-sizing: border-box;
+            border: 1px solid #003c74;
+            background: linear-gradient(180deg, #fff, #ecebe5 86%, #d8d0c4) !important;
+            box-shadow: none;
+            outline: none;
+            color: black !important;
+        }
+        #punch-start-presentation-left.jfk-button:hover, #punch-start-presentation-right.goog-flat-menu-button:hover {
+            box-shadow: inset -1px 1px #fff0cf, inset 1px 2px #fdd889, inset -2px 2px #fbc761, inset 2px -2px #e5a01a !important;
+        }
+        
+        #punch-start-presentation-left.jfk-button:focus, #punch-start-presentation-right.goog-flat-menu-button:focus, #punch-start-presentation-left.jfk-button:active {
+            box-shadow: none !important;
+            background: linear-gradient(180deg,
+                    rgba(205, 202, 195, 1) 0%,
+                    rgba(227, 227, 219, 1) 8%,
+                    rgba(229, 229, 222, 1) 94%,
+                    rgba(242, 242, 241, 1) 100%) !important;
         }
 
         /*Titlebar 雲端save顯示掣*/
@@ -134,5 +174,23 @@
         }
         #docs-omnibox-toolbar.assisted-actions .docs-omnibox-autocomplete .ac-row .goog-menuitem {
             padding: 4px 15px 4px 35px;
+        }
+        /*tooltip*/
+        .jfk-tooltip, .gb_3e/*帳戶*/ {
+            color: black !important;
+            background: var(--tooltip-ballon-beige) !important;
+            font-family: var(--pmingliu-font-family) !important;
+            box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+            border-radius: 0 !important;
+            border: 1px solid black !important;
+            min-height: 16px !important;
+            min-width: 5px !important;
+            padding: 1px 2px !important;
+        }
+        .gb_3e div:first-child /*帳戶*/ {
+            color: black !important;
+        }
+        .gb_Hc > * /*帳戶*/, .docs-grille-gm3 .scb-tooltip-title /*共用*/ {
+            color: #888 !important;
         }
     }

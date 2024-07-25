@@ -1,13 +1,31 @@
 @-moz-document url-prefix("https://www.price.com.hk/search"), url-prefix("https://www.price.com.hk/category"), url-prefix("https://www.price.com.hk/group"), url-prefix("https://www.price.com.hk/zone"), url-prefix("https://www.price.com.hk/product") {
 :root {
     --fontsize: 12pt;
+    --fontfamily-normal: 'Inter', sans-serif;
+    --fontfamily-limited: 'Microsoft Jhenghei', sans-serif;
+}
+body {
+    font-family: sans-serif;
+}
+input {
+    font-family: var(--fontfamily-normal) !important;
+    color: #2b6542 !important;
+}
+span {
+    font-family: 'Gothic A1', sans-serif !important;
 }
 .text-overflow {
     font-size: var(--fontsize) !important;
     margin-bottom: 100px !important;
     position: absolute;
-    top: 0;
+    /*top: 0;*/
     height: unset !important;
+}
+.line .line-10 {
+    font-family: var(--fontfamily-limited) !important;
+    position: absolute;
+    top: -4px;
+    color: #378b7e;
 }
 .product-list-item-list .list-product .grid-2 .item .column-02 .line-01 .text-overflow span {
     min-height: var(--fontsize) !important;

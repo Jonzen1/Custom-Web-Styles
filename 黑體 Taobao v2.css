@@ -1,0 +1,98 @@
+@-moz-document domain("taobao.com"), domain("tmall.com") {
+    @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&display=swap');
+    /* Sample Code: CSS Class for a Variable Style
+    .m-plus-code-latin-<uniquifier> {
+      font-family: "M PLUS Code Latin", monospace;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    }
+    */
+    
+    body, button, input, select, textarea,
+    [data-sg-type=tab] .search-suggest-tabs-tab,
+    .templet-1d2e76b .templet,
+    .ItemHeader--mainTitle--3CIjqW5, #footer1, #site-nav, .Price--priceText--2nLbVda, .ShopHeader--scoreText--27uvRGh,
+    .Attrs--attr--33ShB6X, .MiniPrice--priceText--M0XSIWl,
+    .Title--title--jCOPvpf,
+    .Title--word--R976v0q,
+    .KeysButton--wordWrap--QhLSd9F .KeysButton--wordText--xjoNiXe,
+    .Tab--baseStyle--izOIUCL,
+    .next-checkbox-label,
+    .MorePop--triggerBtn--wlwZuMZ,
+    .ItemTitle--mainTitle--2OrrwrD,
+    .SkuContent--skuItem--3Nb1tMw,
+    .DetailInfo--tabDetailWrap--1B7jQQa .DetailInfo--tabDetailItemTitle--2oTeyYB,
+    .InfoItem--infoItem--zCvv3MH .InfoItem--infoItemContent--3ia0hBf,
+    .InfoItem--infoItem--zCvv3MH .InfoItem--infoItemTitle--RNDVIHj,
+    .TitleTabs--tabTitleWrap--dDsHKRm .TitleTabs--tabTitleItem--3VgPW0_,
+    .Comment--content--22pGCmW, .Comment--userInfo--19tBac5 .Comment--meta--1AM9IDf, .Comments--tabDetailItemTitle--2BFfLMr,.Comments--tagItem--3StPz4C,
+    .Comments--sortBy--Yu0BqRg .Comments--sortByText--1g-UW62,
+    .CouponInfo--couponListWrap--2b_UF44,
+    .mobile--location--2QeKf5g, .mobile--address--23ukZHg,
+    .mobile--item-title--36pckzy, .mobile--price--1_gSD_D, .mobile--info--1PhwjlI, .mobile--tag-1--2zbxTbJ, .mobile--meta--PbbuJKN, .mobile--tag--28qGdMj, .ItemLabel--label--3_r0ZNT .ItemLabel--labelText--3QV48AM, .GuaranteeInfo--triggerWrap--18h5Hgt .GuaranteeInfo--guaranteeText--293JmPS,
+    .Operation--quantityTip--1Pm415f, .ShopHeader--detailWrap--1zgrGb2 .ShopHeader--shopName--zZ3913d{
+        /*font-size: larger !important;*/
+        /*font-family: 'Impact', 'KN Yuanmo SC' !important;*/
+        font-family: 'Neue Haas Grotesk Text Pro', '源泉圓體', sans-serif !important;
+        font-weight: 600 !important;
+    } 
+    
+    /*PRICE TAG*/
+    .Price--priceText--1oEHppn, .Price--overseaPriceText--3tbjK1X, .Operation--countValue--3VF_tPH, .Price--price--pI3tZGJ, .Price--priceFloat--h2RR0RK, .Price--priceInt--ZlsSi_M, .item-content .price-now, .J_ItemSum, .price-mod__price___3Un7c/*已買到的寶貝*/, .float-bar .price-sum .price /*合計*/, .bought-wrapper-mod__head-info-cell___29cDO/*已買到的寶貝 日期及訂單號*/ {
+        font-family: "M PLUS Code Latin" !important;
+      font-weight: 800;
+      font-style: normal;
+        font-optical-sizing: auto;
+        font-variation-settings:
+        "wdth" 800;
+    }
+    .bought-wrapper-mod__head-info-cell___29cDO/*已買到的寶貝 日期及訂單號*/ {
+        font-size: 15px;
+        letter-spacing: 0.6px;
+    }
+    .Operation--countValue--3VF_tPH, .J_ItemSum/*購物車券後價*/, .price-mod__price___3Un7c/*已買到的寶貝*/ {
+        font-size: 18px;
+    }
+    .Price--originPrice--2c8ipVx, .item-content .price-now {
+        color: #b5b5b5 !important;
+    }
+    .Price--extraPrice--3hlaq9P, .CouponInfo--couponListWrap--2b_UF44 {
+        background: none !important;
+        color: #ce4141 !important;
+    }
+    .Price--extraPriceText--3zUb0uS {
+        font-size: 30px !important;
+    }
+    .Price--overseaPriceText--3tbjK1X  {
+        background: #ff5000;
+        padding: 5px 18px;
+        border-radius: 18px;
+        color: #fff;
+        line-height: 1.5;
+        font-size: 30px;
+    }
+    .CouponInfo--couponListWrap--2b_UF44 {
+        line-height: 1;
+        font-size: 22px !important;
+    }
+    .Price--overseaPriceText--1j_tdh_, .Attrs--attr--33ShB6X  {
+        font-size: large !important;
+    }
+    @font-face {
+        font-family: '宋体';
+        src: local('源樣黑體');
+    }
+    
+    @font-face {
+        font-family: 'Microsoft YaHei';
+        src: local('GenYoGothic');
+    }
+    
+    @font-face {
+        font-family: '\5b8b\4f53';
+        src: local('GenYoGothic');
+    }
+    }

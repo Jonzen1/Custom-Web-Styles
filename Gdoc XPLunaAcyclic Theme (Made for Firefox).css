@@ -194,4 +194,13 @@
         .gb_Hc > * /*帳戶*/, .docs-grille-gm3 .scb-tooltip-title /*共用*/ {
             color: #888 !important;
         }
+
+        /*文件分頁*/
+        .chapter-item-label-and-buttons-container {
+            border-radius: 0;
+        }
+        .chapter-item-label-and-buttons-container-selected, .chapter-item-label-and-buttons-container-selected:focus-within {
+            background: #fff;
+            box-shadow: 1px 1px 0px 1px #ccc inset, -1px -1px 0px 1px #ccc inset !important;
+        }
     }

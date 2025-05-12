@@ -14,7 +14,7 @@ This code repository contains initial work that was created as a personal projec
 將 Google Drive 及 Google 文件上無聊嘅泛白極簡 material UI，改造成 XP 風「我的電腦」介面，以及 MS Office XP 風格介面（米色介面更護眼）。
 ## Price.com.hk ___.css
 改動出發點類似上面 Google Drive，將 price.com.hk 上無聊嘅泛白 UI 改造個人特調配色，並隱藏部分網購廣告，專注格價介面、提升空間利用率。格價時用 view-grid 框格檢視效果最佳。
-## 小修小改  
+## 小修小改 Minor changes on various sites
 ### Startpage Loading black background
 as file name said.
 ### Youtube Caption Font

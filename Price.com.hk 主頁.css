@@ -1,4 +1,4 @@
-@-moz-document url("https://www.price.com.hk/") {
+@-moz-document url-prefix("https://www.price.com.hk/index.html"), url("https://www.price.com.hk/") {
     :root {
         --page-background: #00231e;
     }

@@ -1,8 +1,10 @@
-@-moz-document url-prefix("https://www.price.com.hk/search"), url-prefix("https://www.price.com.hk/category"), url-prefix("https://www.price.com.hk/group"), url-prefix("https://www.price.com.hk/zone"), url-prefix("https://www.price.com.hk/product"), url-prefix("https://www.price.com.hk/page"), url-prefix("https://www.price.com.hk/m") {
 :root {
     --fontsize: 12pt;
     --fontfamily-normal: 'Inter', sans-serif;
     --fontfamily-limited: 'Microsoft Jhenghei', sans-serif;
+    --colour-beige: #dad3c2;
+    --colour-light-translucent-white: rgba(255,255,255,0.4);
+    --colour-theme-green: #008a81;
 }
 body {
     font-family: sans-serif;
@@ -61,7 +63,7 @@ iframe, .category_youtube_ad_video, .cc-banner.cc-bottom, .buy_popover-charity, 
     color: #d8d88b;
 }
 body {
-    background: #dad3c2;
+    background: var(--colour-beige);
 }
 .product-list-filter-bar, .body-product-list .breadcrumb-news .nav-menu, .body-product-list .breadcrumb-product .nav-menu {
     background: #ffffff80;
@@ -103,4 +105,69 @@ body {
     
 }
 */
+/* my.php Material UI tab bar*/
+.tab-bar-wrapper {
+    background: transparent;
+}
+/* my.php Material UI tab indicators*/
+.my-desktop-wrapper .tab-bar-wrapper .MuiTabs-indicator, .my-mobile-wrapper .tab-bar-wrapper .MuiTabs-indicator {
+    background: var(--colour-theme-green)!important
+}
+/* my.php Material UI card items*/
+.order-item-card-container, .order-item-card-container .order-item-card-head.card-head {
+    background-color: var(--colour-light-translucent-white);
+}
+.order-item-card-container .product-info-container .MuiAccordion-root {
+    background: none;
+}
+.quotation-update-date {
+    margin-bottom: 10px;
+}
+.merchant-remark span {
+    color: #654c0d;
+}
+.order-item-card-container .product-info-container .MuiAccordion-root button {
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 1px solid var(--colour-theme-green);
+}
+/* my.php Pagination*/
+.styled-light-pagination .MuiPagination-root .MuiPagination-ul li button {
+    font-family: sans-serif;
+}
+.styled-light-pagination .MuiPagination-root .MuiPagination-ul li>:not(.Mui-selected) {
+    color: #3e3e3e;
+    font-size: larger;
+}
+.styled-light-pagination .MuiPagination-root .MuiPagination-ul li button.Mui-selected:not(.Mui-disabled), .styled-light-pagination .MuiPagination-root .MuiPagination-ul li button:hover {
+    font-size: larger;
+}
+.styled-light-pagination .MuiPagination-root .MuiPagination-ul li button.Mui-selected:not(.Mui-disabled) {
+    color: #e5f5f4;
+    background-color: var(--colour-theme-green);
+}
+/*my.php personal info setting*/
+body:not(.isDesktop):not(.isMobile) .my-setting-form-wrapper {
+    background-color: var(--colour-light-translucent-white);
+}
+/*my.php left section*/
+div.left-section {
+    background-color: #00a499;
+}
+div.left-section div nav div a {
+    color: #fff;
+}
+div.left-section div nav div a.active {
+    background-color: var(--colour-beige);
+    font-weight: bold;
+}
+/*my.php address book*/
+div.address-book-panel, div.address-book-panel div {
+    background: none!important;
+}
+div.address-book-panel-content {
+    background-color: #f7f5f2 !important;
+}
+div.address-book-footer-actions {
+    background: none !important;
 }

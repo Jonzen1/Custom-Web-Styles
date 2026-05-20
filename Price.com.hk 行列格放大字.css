@@ -1,4 +1,4 @@
-@-moz-document url-prefix("https://www.price.com.hk/search"), url-prefix("https://www.price.com.hk/category"), url-prefix("https://www.price.com.hk/group"), url-prefix("https://www.price.com.hk/zone"), url-prefix("https://www.price.com.hk/product") {
+@-moz-document url-prefix("https://www.price.com.hk/search"), url-prefix("https://www.price.com.hk/category"), url-prefix("https://www.price.com.hk/group"), url-prefix("https://www.price.com.hk/zone"), url-prefix("https://www.price.com.hk/product"), url-prefix("https://www.price.com.hk/page"), url-prefix("https://www.price.com.hk/m") {
 :root {
     --fontsize: 12pt;
     --fontfamily-normal: 'Inter', sans-serif;

@@ -1,38 +1,74 @@
-@-moz-document url-prefix("https://www.price.com.hk/index.html"), url("https://www.price.com.hk/") {
-    :root {
-        --page-background: #00231e;
-    }
-    body, .menu-mega .menu-lv-zone, .tab-news-pane-wrapper, .nav-tabs {
-        background: var(--page-background);
-    }
-    .menu-mega .menu-lv-zone li .menu-zone-unit a, .nav-tabs > li.active > a{
-        color: #ccc;
-    }
-    div.merchant, #text, .tab-content .profile-list-item-list .item-inner .line-02, .text {
-        color: #777 !important;
-    }
-    .header, .header-top, .header-bottom, .header-bottom .page-view-respond-control, .menu-mega-label{
-            background: #015447;
-    }
-    .header-bottom .hot-items-wrapper ul li a, .header-top .column button, .header-top .column a, .header-top .column.column-01, .header-top .caret,
-    .menu-mega .menu-lv-zone .menu-lv-cat li a,
-    .tab-content .profile-list-item-list .item-inner .line-01{
-            color: #d8d88b;
-        }
-    .menu-mega .menu-lv-zone li:last-child, .nav-tabs {
-        border-bottom-color: #76764a !important;
-    }
-    .side-banner, .ec-banner {
-        opacity: 0.2;
-    }
-    .page-view-footer {
-        opacity: 0.5;
-    }
-    .tab-content .profile-list-item-list li , .menu-mega .menu-lv-zone > li, .tab-content .profile-list-item-list .list-fav-product, .menu-mega .menu-mega-info{
-        border-color: var(--page-background);
-        background: #0e1b15;
-    }
-    img {
-        border-radius: 4px;
-    }
-    }
+@-moz-document url("https://www.price.com.hk/") {
+:root {
+    --page-background: #00231e;
+    --color-black-600: #d8d88b !important;
+    --color-black-900: #d8d88b !important;
+}
+body, .menu-mega .menu-lv-zone, .tab-news-pane-wrapper, .nav-tabs {
+    background: var(--page-background);
+}
+.menu-mega .menu-lv-zone li .menu-zone-unit a, .nav-tabs > li.active > a{
+    color: #ccc;
+}
+div.merchant, #text, .tab-content .profile-list-item-list .item-inner .line-02, .text {
+    color: #777 !important;
+}
+.header, .header-top, .header-bottom, .header-bottom .page-view-respond-control, .menu-mega-label{
+        background: #015447;
+}
+/*20260924 start*/
+.navigation-content, .topNavigation_top-navigation__cTCHx .topNavigation_navigation-content__Ti7A3 ul.topNavigation_navigation-list__AZDMK > li a,
+.dropdown_dropdown-list___dsrt .dropdown_dropdown-list-button__Jx_Ac {
+        color: #d8d88b;
+}
+/*20260924 end*/
+.menu-mega .menu-lv-zone li:last-child, .nav-tabs {
+    border-bottom-color: #76764a !important;
+}
+.side-banner, .ec-banner {
+    opacity: 0.2;
+}
+.page-view-footer {
+    opacity: 0.5;
+}
+
+/*20260924 start*/
+.productItem, .bg-white, .MuiPaper-root,
+.tablistTab{
+    border-color: var(--page-background);
+    background: #0e1b15;
+    color: var(--color-black-600);
+}
+.zoneItem,
+.categoryMenu_zoneItem,
+.categoryMenu_categoryMenuContainer___epSU .categoryMenu_categoryMenu__vVwic .categoryMenu_tablistMenu__FGonT .categoryMenu_tablistTabs__mxnog .categoryMenu_tablistTabWrapper__KldnH .categoryMenu_tablistTab__MaLZv .categoryMenu_tablistTabItem__5_Yid.categoryMenu_zoneItem__hcBbE
+{
+    background: #015447;
+    color: #d8d88b;
+}
+/*hover extend cate menu*/
+.categoryMenu_categoryMenuContainer___epSU .categoryMenu_categoryMenu__vVwic .categoryMenu_tabpanelOverlay__2Lzs5,
+.categoryMenu_categoryMenuContainer___epSU .categoryMenu_categoryMenu__vVwic .categoryMenu_tabpanelOverlay__2Lzs5 .categoryMenu_tabpanelWrapper__tK0MH .categoryMenu_tabpanelMenu__vXxvZ ul > li.categoryMenu_tabpanelMenuItem__my1Ek.categoryMenu_categoryItems__NAfT9 > ul > li.categoryMenu_categoryItem__uo1Aw a,
+.categoryMenu_categoryMenuContainer___epSU .categoryMenu_categoryMenu__vVwic .categoryMenu_tabpanelOverlay__2Lzs5 .categoryMenu_tabpanelWrapper__tK0MH .categoryMenu_tabpanelMenu__vXxvZ ul:hover {
+    background: #17423b;
+    color: #d8d88b;
+}
+.categoryMenu,
+.categoryMenu_categoryMenuContainer___epSU .categoryMenu_categoryMenu__vVwic,
+.MuiTabs-root,
+.categoryMenu_categoryMenuContainer___epSU .categoryMenu_categoryMenu__vVwic .categoryMenu_tablistMenu__FGonT .categoryMenu_tablistTabs__mxnog .categoryMenu_tablistTabWrapper__KldnH:not(:last-of-type){
+    border-color: var(--page-background);
+}
+.image-wrapper.relative.overflow-hidden.w-auto img {
+    height: auto !important;
+    border-radius: 0;
+}
+/*cate menu no dashed border*/
+.categoryMenu_categoryMenuContainer___epSU .categoryMenu_categoryMenu__vVwic .categoryMenu_tablistMenu__FGonT .categoryMenu_tablistTabs__mxnog .categoryMenu_tablistTabWrapper__KldnH:not(:last-of-type) {
+    border: 0;
+}
+/*20260924 end*/
+img {
+    border-radius: 4px;
+}
+}

@@ -53,6 +53,10 @@ div.merchant, #text, .tab-content .profile-list-item-list .item-inner .line-02, 
     background: #17423b;
     color: #d8d88b;
 }
+/*30-9-2026 auto complete*/
+.mui-40th51 .MuiAutocomplete-option {
+    background: #17423b;
+}
 .categoryMenu,
 .categoryMenu_categoryMenuContainer___epSU .categoryMenu_categoryMenu__vVwic,
 .MuiTabs-root,
